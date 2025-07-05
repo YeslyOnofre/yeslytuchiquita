@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #67969c;
+  color: #333;
+}
+header {
+  background-color: #007b8f;
+  color: white;
+  padding: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+button {
+  background-color: #007b8f;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+form input, form textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+}
+.historia {
+  background-color: #d47dc6;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #2d3436;
+  line-height: 1.6;
+}
+.doctores {
+  padding: 30px;
+  background-color: #eef5f9;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.doctores h2 {
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.doctor {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.doctor img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.doctor h3 {
+  color: #2980b9;
+  margin-bottom: 5px;
+}
+
+.doctor p {
+  font-size: 15px;
+  color: #34495e;
+}
